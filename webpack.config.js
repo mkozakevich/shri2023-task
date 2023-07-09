@@ -5,7 +5,7 @@ module.exports = {
   mode: "production",
   entry: "./src/index.jsx",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "."),
     filename: "[name].[contenthash].js",
   },
   plugins: [
