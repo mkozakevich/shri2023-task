@@ -1,0 +1,42 @@
+{
+  "name": "shri2023-task",
+  "version": "1.0.0",
+  "description": "## Задание Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **100 баллов**.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkozakevich/shri2023-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkozakevich/shri2023-task/issues"
+  },
+  "homepage": "https://github.com/mkozakevich/shri2023-task#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "3.0.0",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
